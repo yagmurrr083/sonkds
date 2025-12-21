@@ -1,0 +1,28 @@
+{
+  "name": "sunucu2026",
+  "version": "1.0.0",
+  "description": "Sunucu Tabanlı Programlama Dersi 2026",
+  "main": "app.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "db:setup": "node db/setup_db.js",
+    "db:seed": "node db/seed_data.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "mysql2": "^3.16.0",
+    "nodemailer": "^7.0.11",
+    "nodemon": "^3.1.11"
+  },
+  "devDependencies": {}
+}
